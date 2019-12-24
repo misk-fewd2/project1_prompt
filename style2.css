@@ -1,0 +1,71 @@
+
+
+body
+    {
+   /* background-image: url ("/Users/latefa/Documents/GitHub/week-01-HW-02/vission.jpg") ;
+    background-repeat: repeat-x; */
+    background-color: rgb(255, 255, 255);
+
+    }
+
+    .classsubject{
+        margin-left: 450px;
+        width: 500px;
+        height: 40px;
+        text-align: center;
+        border-right: #050005 5px solid;
+        border-bottom: 5px  #050005  solid;
+        border-left: 5px  #050005  solid;
+        border-top: 5px  #050005 le solid;
+        border-radius: 30px;
+        border-style: initial;
+        background-color: rgb(195, 173, 201);
+
+    }
+
+
+    .imHome {
+        display: block;
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto; 
+      }
+
+      .images {
+        display: block;
+        width: 70%;
+       
+      }
+
+     
+      #id1
+      {
+          color: rgb(160, 38, 144);
+          text-align: center;
+          text-decoration: overline ;
+          font-family: Tahoma;
+      }
+
+      #id2
+      {
+          color: rgb(160, 38, 144);
+          text-align: center;
+          text-decoration: underline ;
+          font-family: Tahoma;
+      }
+
+      #id3
+      {
+          color: rgb(160, 38, 144);
+          text-align: center;
+          text-decoration: double ;
+          font-family: Tahoma;
+          text-decoration: overline ;
+
+      }
+
+    .tbltextalign
+        {
+            text-align: left;
+            
+        }
