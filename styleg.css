@@ -1,0 +1,116 @@
+body
+    {
+    background-color: rgb(255, 255, 255);
+    /*background-image: url ("vission.jpg") ;
+    background-repeat: repeat-x; 
+    /*background-color: azure;*/
+    }
+
+
+    .classsubject{
+        margin-left: 450px;
+        width: 500px;
+        height: 40px;
+        text-align: center;
+        border-right: #050005 5px solid;
+        border-bottom: 5px  #050005  solid;
+        border-left: 5px  #050005  solid;
+        border-top: 5px  #050005 le solid;
+        border-radius: 30px;
+        border-style: initial;
+        background-color: rgb(195, 173, 201);
+
+    }
+
+    #idV
+    {
+        color: rgb(160, 38, 144);
+        text-align: center;    
+
+        text-decoration: overline ;
+        font-family: Tahoma;
+    }
+
+    #idV1
+    {
+        color: rgb(3, 3, 3);
+        text-align: center;
+    }
+    
+    #idM
+    {
+        color: navy;
+        text-align: center;
+        text-decoration: overline ; 
+        font-family: Tahoma;
+    }
+    
+    #idM1
+    {
+        color: rgb(3, 3, 3);
+        text-align: center;
+    }
+    
+    #idVal
+    {
+        color: rgb(77, 190, 175);
+        text-align: center;
+        text-decoration: overline ;
+        font-family: Tahoma;
+    }
+
+    .textalign
+        {
+            text-align: center;
+            
+        }
+        
+        ul {
+            list-style-position: inside;
+        }
+
+    .imagee {
+       /* display: block;*/
+      margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+
+      .imagee1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+      }
+
+      .imagesoci {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        width: 6%;
+      }
+
+       /* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 30%;
+  }
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+.container:hover .overlay {
+    transform: scale(0.9);
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(243, 214, 241);
+    overflow: hidden;
+    width: 35%;
+    height: 35%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
